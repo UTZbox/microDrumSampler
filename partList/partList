@@ -1,0 +1,25 @@
+here you will find the recommended parts to build by yourselves
+
+pcs.  vendor/type                 usage:
+1x    Teensy 4.0 board            processing unit
+1x    Teensy 4 Audio Rev. D       audio board
+1x    Prototype PCB               Main PCB
+1x    Resistor 68R                for Status LED                
+2x    Resistor 10k                pulldown for inputs
+2x    Z-Diode 3.3V                Protecting Inputs from Overvoltage
+1x    LED-Diode 2.1V 20mA           Status LED
+1x    3 way witch                 Panel mounted switch for Preset input
+2x    6.3mm Mono Jack socket      for Foot-Pedal / Trigger
+1x    USB-B to USB-A Adapter      if you like to have a in housing connector istead of fixed cable
+1x    Housing                     every type you like
+Xx    Single Wire 0.5mm2          to connect the Mono-Jack to PCB
+
+Additional (Battery powered)
+pcs.  vendor/type                 usage:
+1x    Dayton Audio LBB-3v2        Lithium Battery Charger
+3x    18650 Lithium Battery       
+1x    Traco TWR12WI               DC/DC Converter 12V to 5V for powering the Teensy
+
+Additional (Battery powered + Power Amplifier)
+1x    3.5mm Stereo jack cable     connecting Audio-Borad with power Amp
+1x    Mikroe 2X20W AMP Click      12V 2x20 Watt Single IC power Amplifier
