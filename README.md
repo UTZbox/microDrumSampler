@@ -1,5 +1,5 @@
 # microDrumSampler
-A compact audio sampler that quickly plays files from an SD card, featuring two hardware trigger inputs and a preset switch to select between three sounds per channel.
+A compact sampler that quickly plays audio files from an SD card, featuring two hardware trigger inputs and a preset switch to select between three sounds per channel. Based on a Teensy 4.0 Plattform.
 
 # what can it be used for:
 In my case, I built it for a street artist who wanted to play a drum sound along with his guitar, without using any traditional drum components or a cajón. With two foot pedals, he can control the drum sampler and route the audio output through the guitar amplifier or loop pedal. The artist can also choose between three different sounds using a preset switch. By powering up the sampler it plays a startup sound, to show if its selftest is done and ready to perform. The system can be powered by a battery, and the battery level is monitored by the sampler, with a low charge being indicated audibly. Instead of the audio output, it is also possible to directly connect an amplifier and speakers if this is intended to be a standalone device. 
