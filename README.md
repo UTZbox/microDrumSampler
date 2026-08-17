@@ -9,7 +9,7 @@ For model builders, exhibitions, or museums, this can be used as a simple player
 The device is based on a Teensy 4.0 and Teensy Audio Rev. D Board
 Additional it can be battery powered. Instead the Audio Line-Out a power-amplifier can be added as well.
 
-When a rising edge is detected at the input, a dedicated file (.raw audio file) is played based on the preset selection (1 to 3). Each input has its own dedicated process (player) to ensure fast beats can be played without delay. If needed the current playou can be stopped by an input as well.
+When a rising edge is detected at the input, a dedicated file (.raw audio file) is played based on the preset selection (1 to 3). Each input has its own dedicated process (player) to ensure fast beats can be played without delay. If needed the current playout can be stopped by an input as well.
 An analog input measures the battery voltage and provides an audible alert as well as a status LED notification when the voltage gets too low. If the voltage drops below the minimum threshold, an output is triggered to, for example, mute a power amplifier. This prevents deep discharge or extreme distortion at the amp output. If this feature is not needed, the analog input can simply be pulled up to HIGH (+3.3V).
 
 # file handling:
